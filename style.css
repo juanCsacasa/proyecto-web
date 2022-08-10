@@ -1,0 +1,116 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Cormorant Garamond', serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+li{
+  display: inline;
+}
+
+h1{
+  font-size: 1.75rem;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Inter', sans-serif;
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
+h3{
+  font-size: 1.375rem;
+}
+
+p{
+  font-size: 1.25rem;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  border: 0.125rem solid rebeccapurple;
+  color: white;
+  border-radius:1.25rem;
+  padding: .625rem;
+}
+
+address{
+  justify-content: center;
+}
+
+img{
+  max-width: 100%;
+}
+
+footer{
+  background-color: rebeccapurple;
+  color: wheat;
+  margin-top: 2.5rem;
+  padding: 7.8125rem;
+}
+
+.container{
+  max-width: 73.75rem;
+  margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  gap: 1.87rem;
+}
+
+.nav-flex{
+  display: flex;
+  gap: 35.625rem;
+}
+
+.logo{
+  font-size: 2.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.colum{
+  display: flex;
+  flex-direction: row;
+  gap: 1.87rem;
+  justify-content: center;
+}
+
+.form{
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.name{
+  text-align: center;
+}
+
+.navprincipal {
+  margin-top: 2.8125rem;
+}
+
+a:hover{
+  text-decoration-style: wavy;
+}
+
+.box{
+  background-color: rebeccapurple;
+  color: black;
+  padding: 2rem;
+  width: 37.5rem;
+  margin-bottom: 2.8125rem;
+}
+
+.box:hover{
+  background-color: purple;
+  color:white;
+}

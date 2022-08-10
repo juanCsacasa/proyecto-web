@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <linkh
+    ref="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=EB+Garamond:wght@700&family=Inter:wght@700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+  <header class="container">
+    <div class="nav-flex">
+      <div>
+        <p class="logo">JCSC</p>
+      </div>
+      <div class="navprincipal">
+        <nav>
+          <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="acercademi.html">Acerca de mi</a></li>
+            <li><a href="curriculum.html">Curriculum</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <address class="container flex text">
+    <p>Nombre: juan Carlos Sacasa Castillo</p>
+    <p>Telefono: 6012 9548</p>
+    <p>Gmail: juanksacasa@gmail.com</p>
+  </address>
+  <section class="container">
+    <form>
+      <h1 class="form">Contacto</h1>
+      <p class="form">
+        <label for="iname">Nombre:</label>
+        <input id="iname" type="text" name="name">
+      </p>
+      <p class="form">
+        <label for="iemail">Email:</label>
+        <input id="iemail" type="email" name="email">
+      </p>
+      <div class="form">
+        <label for="Select">Select</label>
+        <select>
+          <option value="1">Motivo de contacto</option>
+          <option value="2">Trabajo</option>
+          <option value="3">Pago de trabajo</option>
+          <option value="4">Cotizacion</option>
+          <option value="5">Consultas</option>
+        </select>
+      </div>
+      <div class="form">
+        <label for="Comentaro">Comentario</label>
+        <textarea name="Comentario" id="Comentario" cols="20" rows="5"></textarea>
+      </div>
+      <div class="form">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+      </div>
+    </form>
+  </section>
+  <footer>
+    <form>
+      <label for="iemail">Email:</label>
+      <input id="iemail" type="email" name="email">
+    </form>
+    <div>
+      <p>2022, San jose Costa Rica</p>
+      <p>juan Carlos Sacasa Castillo</p>
+    </div>
+  </footer>
+</body>
+
+</html>
